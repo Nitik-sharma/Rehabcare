@@ -1,25 +1,22 @@
+import React from "react";
+import doctor1 from "../images/doctor1.avif"
+import doctor2 from "../images/doctor2.avif"
 const doctors = [
   {
-    image: "/images/doctor1.jpg",
-    name: "Dr. Rajesh Sharma",
+    image: doctor1,
+    name: "Dr.Pankaj Vats",
     degree: "MPT Orthopedics",
-    experience: "12+ Years",
+    experience: "5+ Years",
     specialization: "Sports Injury & Rehabilitation",
   },
   {
-    image: "/images/doctor2.jpg",
-    name: "Dr. Priya Gupta",
+    image: doctor2,
+    name: "Dr.Nisha Vats",
     degree: "BPT, MPT",
-    experience: "10+ Years",
+    experience: "5+ Years",
     specialization: "Neurological Physiotherapy",
   },
-  {
-    image: "/images/doctor3.jpg",
-    name: "Dr. Amit Verma",
-    degree: "MPT Sports",
-    experience: "8+ Years",
-    specialization: "Sports & Fitness Recovery",
-  },
+  
 ];
 
 export default function TeamSection() {
@@ -34,8 +31,9 @@ export default function TeamSection() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {doctors.map((doctor, index) => (
+        <div className="grid md:grid-cols-2 gap-8">
+                  {doctors.map((doctor, index) => (
+              
             <div
               key={index}
               className="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition"
