@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+import ServiceDetailTemplate from "./ServiceDetailTemplate.jsx";
 import NuroHero from "../../images/NuroHero.png"
 import NuroFirst from "../../images/NuroSecond.png"
 import NuroSecond from "../../images/NuroThird.png"

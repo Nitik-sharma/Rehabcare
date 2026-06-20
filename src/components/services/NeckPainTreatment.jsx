@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+import ServiceDetailTemplate from "./ServiceDetailTemplate.jsx";
 import NackPainHero from "../../images/NackpainHero.png"
 import NackProblem from "../../images/commanNackProblem.png"
 import NackTreatment from "../../images/NackTreatment.png"

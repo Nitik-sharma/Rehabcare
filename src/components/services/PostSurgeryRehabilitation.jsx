@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+import ServiceDetailTemplate from "./ServiceDetailTemplate.jsx";
 import PostHero from "../../images/HeroPost.png"
 import PostRec from "../../images/PostImagee.png"
 import PostApp from "../../images/process.png"

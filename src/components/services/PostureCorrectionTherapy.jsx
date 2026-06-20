@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+import ServiceDetailTemplate from "./ServiceDetailTemplate.jsx";
 
 const data = {
   seoTitle:
