@@ -211,7 +211,7 @@ const data = {
     headline: "Ready to Support Your Child's Development?",
     copy: "Every child deserves the chance to move, play, and grow with confidence. Our pediatric physiotherapists are here to help.",
     subheadline: "Book Your Pediatric Physiotherapy Assessment Today",
-    phoneNumber: "+91-XXXXXXXXXX",
+    phoneNumber: "+91-9034107746",
     phoneCta: "Call Now",
     bookCta: "Book Appointment",
     address: "RehabCare Clinic, Gurgaon",

@@ -16,7 +16,7 @@ import DryNeedlingTherapy from "./components/services/DryNeedlingTherapy";
 import HomePhysiotherapyServices from "./components/services/HomePhysiotherapyServices";
 import OrthopedicPhysiotherapy from "./components/services/OrthopedicPhysiotherapy";
 import NeurologicalRehabilitation from "./components/services/NeurologicalRehabilitation";
-import PediatricPhysiotherapy from "./components/services/PediatricPhysiotherapy";
+import PediatricPhysiotherapy from "./components/services/PediatricPhysiotherapy ";
 import PainManagementTherapy from "./components/services/PainManagementTherapy";
 import PostureCorrectionTherapy from "./components/services/PostureCorrectionTherapy";
 import GeriatricPhysiotherapy from "./components/services/GeriatricPhysiotherapy";
