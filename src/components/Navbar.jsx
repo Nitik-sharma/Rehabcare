@@ -29,8 +29,8 @@ const NAV_LINKS = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
   { label: "Services", path: "/services" },
-  { label: "Doctors", path: "/doctors" },
-  { label: "Blog", path: "/blog" },
+  // { label: "Doctors", path: "/doctors" },
+  // { label: "Blog", path: "/blog" },
   { label: "Contact", path: "/contact" },
 ];
 
@@ -267,10 +267,10 @@ export default function Navbar() {
                 <p className="mt-3 text-center text-xs text-slate-400">
                   Or call us at{" "}
                   <a
-                    href="tel:+910000000000"
+                    href="tel:+91 9034107746"
                     className="font-medium text-brand-blue"
                   >
-                    +91 00000 00000
+                    +91 9034107746
                   </a>
                 </p>
               </motion.div>
