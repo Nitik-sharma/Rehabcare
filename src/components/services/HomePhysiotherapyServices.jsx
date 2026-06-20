@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate.jsx";
+import ServiceDetailTemplate from "./ServiceDetailTemplate";
 
 const data = {
   seoTitle:
@@ -198,7 +198,7 @@ const data = {
     headline: "Ready for Physiotherapy at Your Doorstep?",
     copy: "Don't let travel be a barrier to your recovery. Our expert physiotherapists are ready to bring quality care to you.",
     subheadline: "Book Your Home Physiotherapy Visit Today",
-    phoneNumber: "+91-XXXXXXXXXX",
+    phoneNumber: "+91-9034107746",
     phoneCta: "Call Now",
     bookCta: "Book Appointment",
     address: "RehabCare Clinic, Gurgaon",

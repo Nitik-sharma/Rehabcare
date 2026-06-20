@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate.jsx";
+import ServiceDetailTemplate from "./ServiceDetailTemplate";
 
 const data = {
   seoTitle:
@@ -206,7 +206,7 @@ const data = {
     headline: "Ready to Support Safe, Confident Movement?",
     copy: "Independence and confidence in movement matter at every age. Our expert physiotherapists are here to help.",
     subheadline: "Book Your Geriatric Physiotherapy Assessment Today",
-    phoneNumber: "+91-XXXXXXXXXX",
+    phoneNumber: "+91-9034107746",
     phoneCta: "Call Now",
     bookCta: "Book Appointment",
     address: "RehabCare Clinic, Gurgaon",

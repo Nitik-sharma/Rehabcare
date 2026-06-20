@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate.jsx";
+import ServiceDetailTemplate from "./ServiceDetailTemplate";
 import SportsHero from "../../images/sportsHero.png"
 import sportProcess from "../../images/sportsprocess.png"
 import sportsConditions from "../../images/sportsCondition.png"

@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate.jsx";
+import ServiceDetailTemplate from "./ServiceDetailTemplate";
 import BackpainHero from "../../images/Backpainhero.png"
 import BackpainCondition from "../../images/BackpainCondition.png"
 import manualTherapyBackPain from "../../images/manualTherpyBackpain.png"
