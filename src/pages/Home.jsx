@@ -17,6 +17,7 @@ import TeamSection from "./TeamSection";
 import Testimonials from "./Testimonials";
 import TreatmentProcess from "./TreatmentProcess";
 import CTASection from "../components/CtaSection";
+import ClinicInfoSection from "../components/ClinicInfoSection";
 
 // Add more images here to lengthen the rotation — it cycles through whatever is listed
 const SLIDES = [
@@ -174,14 +175,16 @@ function Home() {
           </motion.div>
         </motion.div>
       </section>
-<WhyChooseUs/>
-          <ConditionsWeTreat />
-          <TreatmentProcess/>
-          <OurServices />
-          <TeamSection />
-          <Testimonials />
-          <CTASection/>
+      <WhyChooseUs />
+      <ConditionsWeTreat />
+      <TreatmentProcess />
+      <OurServices />
+      <TeamSection />
+      <Testimonials />
+      <CTASection />
+
       <FAQ />
+      <ClinicInfoSection />
     </>
   );
 }

@@ -27,6 +27,7 @@ import {
   MapPin,
   Mail,
 } from "lucide-react";
+import ClinicInfoSection from "../components/ClinicInfoSection";
 
 // ---- Brand tokens (exact hex values from the design spec) ----
 const C = {
@@ -921,6 +922,7 @@ export default function About() {
       <Process />
       <FAQ />
       <FinalCTA />
+      <ClinicInfoSection/>
      
     </div>
   );
