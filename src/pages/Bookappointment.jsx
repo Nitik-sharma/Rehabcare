@@ -62,10 +62,11 @@ function Bookappointment() {
 
   return (
     <div className="min-h-screen bg-[#F8FAFC]">
-      <section className="min-h-screen flex items-center justify-center px-6 py-16">
-        <div className="max-w-7xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl grid lg:grid-cols-2">
+      <section className="px-4 sm:px-6 py-10 sm:py-16">
+        <div className="max-w-7xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl grid grid-cols-1 lg:grid-cols-2">
+          {" "}
           {/* LEFT SIDE */}
-          <div className="relative">
+          <div className="relative min-h-[500px] lg:min-h-full">
             <img
               src={appointmentImg}
               alt="Physiotherapy Appointment"
@@ -74,22 +75,22 @@ function Bookappointment() {
 
             <div className="absolute inset-0 bg-gradient-to-br from-[#005CB9]/90 to-[#7CC242]/70"></div>
 
-            <div className="absolute inset-0 flex flex-col justify-center p-10 text-white">
+            <div className="absolute inset-0 flex flex-col justify-center p-6 sm:p-8 lg:p-10 text-white">
               <span className="uppercase tracking-widest text-sm font-semibold">
                 RehabCare Clinic
               </span>
 
-              <h1 className="text-5xl font-bold mt-4 leading-tight">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mt-4 leading-tight">
                 Book Your Appointment
               </h1>
 
-              <p className="mt-6 text-lg text-white/90 leading-relaxed">
+              <p className="mt-4 text-base sm:text-lg text-white/90 leading-relaxed">
                 Get expert physiotherapy care from our experienced team. Whether
                 you're recovering from an injury, surgery, or managing chronic
                 pain, we're here to help.
               </p>
 
-              <div className="mt-10 space-y-4">
+              <div className="mt-6 lg:mt-10 space-y-3">
                 <div className="bg-white/10 backdrop-blur-md rounded-xl p-4">
                   ✓ Personalized Treatment Plans
                 </div>
@@ -104,11 +105,10 @@ function Bookappointment() {
               </div>
             </div>
           </div>
-
           {/* RIGHT SIDE */}
-          <div className="p-8 md:p-12">
+          <div className="p-6 sm:p-8 lg:p-12">
             <div className="mb-8">
-              <h2 className="text-4xl font-bold text-[#005CB9]">
+              <h2 className="text-3xl sm:text-4xl font-bold text-[#005CB9]">
                 Schedule a Visit
               </h2>
 
@@ -148,7 +148,7 @@ function Bookappointment() {
                 className="w-full p-4 border rounded-xl outline-none focus:border-[#005CB9]"
               />
 
-              <div className="grid md:grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div>
                   <label className="block mb-2 text-gray-700">
                     Appointment Date

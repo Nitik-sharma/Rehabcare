@@ -133,7 +133,7 @@ export default function Navbar() {
             {/* Compact CTA for very small screens (icon-first, label hidden below 400px handled by parent) */}
             <Link
               to="/book-appointment"
-              className="inline-flex items-center gap-1.5 rounded-full bg-brand-blue px-3.5 py-2 text-xs font-semibold text-white shadow-sm sm:hidden"
+              className="inline-flex items-center gap-1.5 rounded-full bg-brand-blue px-3.5 py-2 text-xs font-semibold text-green-600 shadow-sm sm:hidden"
             >
               <HiOutlineCalendar className="h-3.5 w-3.5" />
               Book
