@@ -7,12 +7,11 @@ function ClinicInfoSection() {
   return (
     <section className="py-20 bg-[#F8FAFC] px-6">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
-
         {/* Left Side - Map */}
         <div className="overflow-hidden rounded-3xl shadow-xl border border-gray-200">
           <iframe
             title="RehabCare Location"
-            src="https://www.google.com/maps?q=Laxman+Vihar+Gurugram&output=embed"
+            src="https://www.google.com/maps?q=18,Yadav Market,Dhanwapur Road,Laxman Vhiar,Gurugram&output=embed"
             width="100%"
             height="450"
             style={{ border: 0 }}
@@ -22,7 +21,6 @@ function ClinicInfoSection() {
 
         {/* Right Side */}
         <div>
-
           <span className="text-[#7CC242] font-semibold uppercase tracking-wider">
             Visit Our Clinic
           </span>
@@ -40,10 +38,8 @@ function ClinicInfoSection() {
                   RehabCare Clinic
                 </h3>
                 <p className="text-gray-600 mt-2">
-                  18, Yadav Market,
-                  Dhanwapur Road,
-                  Laxman Vihar,
-                  Gurugram, Haryana
+                  18, Yadav Market, Dhanwapur Road, Laxman Vihar, Gurugram,
+                  Haryana
                 </p>
               </div>
             </div>
@@ -51,22 +47,18 @@ function ClinicInfoSection() {
 
           {/* Fee Card */}
           <div className="bg-gradient-to-br from-[#005CB9] to-[#0A73D9] text-white rounded-3xl p-8 shadow-xl">
-
             <p className="text-white/80 uppercase tracking-wider text-sm">
               Consultation Fee
             </p>
 
-            <h3 className="text-6xl font-bold mt-2">
-              ₹400
-            </h3>
+            <h3 className="text-6xl font-bold mt-2">₹400</h3>
 
             <p className="mt-4 text-white/90">
-              Expert physiotherapy consultation including assessment,
-              diagnosis, and personalized treatment planning.
+              Expert physiotherapy consultation including assessment, diagnosis,
+              and personalized treatment planning.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-
               <Link
                 to="/book-appointment"
                 className="flex-1 bg-[#7CC242] hover:bg-[#6EB437] text-[#1F2937] text-center py-4 rounded-xl font-semibold transition"
@@ -81,11 +73,8 @@ function ClinicInfoSection() {
                 <FaPhoneAlt />
                 Call Now
               </a>
-
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
