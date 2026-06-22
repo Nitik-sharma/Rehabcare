@@ -1,10 +1,11 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+
 import NackPainHero from "../../images/NackpainHero.png"
 import NackProblem from "../../images/commanNackProblem.png"
 import NackTreatment from "../../images/NackTreatment.png"
 import Nackapproach from "../../images/NackApp.png"
 import NackCta from "../../images/NackCta.avif"
+import ServiceDetailPage from "../Servicedetailpage";
 const data = {
   seoTitle:
     "Neck Pain Treatment in Gurgaon | Physiotherapy for Cervical Pain & Stiffness | RehabCare Clinic",
@@ -222,5 +223,5 @@ const data = {
 };
 
 export default function NeckPainTreatment() {
-  return <ServiceDetailTemplate data={data} />;
+  return <ServiceDetailPage data={data} />;
 }

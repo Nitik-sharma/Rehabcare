@@ -1,10 +1,11 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+
 import NuroHero from "../../images/NuroHero.png"
 import NuroFirst from "../../images/NuroSecond.png"
 import NuroSecond from "../../images/NuroThird.png"
 import NuroThird from "../../images/NuroFourth.png"
 import NuroCta from "../../images/hero3.jpeg"
+import ServiceDetailPage from "../Servicedetailpage";
 
 const data = {
   seoTitle:
@@ -226,5 +227,5 @@ const data = {
 };
 
 export default function NeurologicalRehabilitation() {
-  return <ServiceDetailTemplate data={data} />;
+  return <ServiceDetailPage data={data} />;
 }

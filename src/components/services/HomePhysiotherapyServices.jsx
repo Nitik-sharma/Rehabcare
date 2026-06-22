@@ -1,5 +1,6 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+
+import ServiceDetailPage from "../Servicedetailpage";
 
 const data = {
   seoTitle:
@@ -206,5 +207,5 @@ const data = {
 };
 
 export default function HomePhysiotherapyServices() {
-  return <ServiceDetailTemplate data={data} />;
+  return <ServiceDetailPage data={data} />;
 }

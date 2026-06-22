@@ -1,10 +1,11 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+
 import SportsHero from "../../images/sportsHero.png"
 import sportProcess from "../../images/sportsprocess.png"
 import sportsConditions from "../../images/sportsCondition.png"
 import sportsApproach from "../../images/sportsApproach.png"
 import sportsCta from "../../images/sportsFinalcta.png"
+import ServiceDetailPage from "../Servicedetailpage";
 
 /**
  * Drop real photo imports in here once you have them, e.g.:
@@ -300,5 +301,5 @@ const data = {
 };
 
 export default function SportsInjuryRehabilitation() {
-  return <ServiceDetailTemplate data={data} />;
+  return <ServiceDetailPage data={data} />;
 }

@@ -1,10 +1,11 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+
 import BackpainHero from "../../images/Backpainhero.png"
 import BackpainCondition from "../../images/BackpainCondition.png"
 import manualTherapyBackPain from "../../images/manualTherpyBackpain.png"
 import BackPainExcercise from "../../images/ExcerciseBackPain.png"
 import HappyBackPain from "../../images/HappyBackpain.png"
+import ServiceDetailPage from "../Servicedetailpage";
 
 /**
  * Drop real photo imports in here once you have them, e.g.:
@@ -253,5 +254,10 @@ const data = {
 };
 
 export default function BackPainTreatment() {
-  return <ServiceDetailTemplate data={data} />;
+  return (
+    <>
+      {/* <ServiceDetailTemplate/> */}
+      <ServiceDetailPage data={data} />
+    </>
+  );
 }

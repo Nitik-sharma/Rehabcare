@@ -1,10 +1,11 @@
 import React from "react";
-import ServiceDetailTemplate from "./ServiceDetailTemplate";
+
 import PostHero from "../../images/HeroPost.png"
 import PostRec from "../../images/PostImagee.png"
 import PostApp from "../../images/process.png"
 import PostTrt from "../../images/PostImage3.png"
 import PostCta from "../../images/NackCta.avif"
+import ServiceDetailPage from "../Servicedetailpage";
 
 const data = {
   seoTitle:
@@ -226,5 +227,5 @@ const data = {
 };
 
 export default function PostSurgeryRehabilitation() {
-  return <ServiceDetailTemplate data={data} />;
+  return <ServiceDetailPage data={data} />;
 }
