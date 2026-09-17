@@ -42,7 +42,7 @@ const STATS = [
   },
   {
     icon: MdAdminPanelSettings,
-    value: "4+ Years",
+    value: "5+ Years",
     label: "Of Experience",
     color: "text-[#005AA9]",
   },

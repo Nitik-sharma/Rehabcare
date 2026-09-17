@@ -5,33 +5,52 @@ import "react-toastify/dist/ReactToastify.css";
 import contactImage from "../images/hero5.jpeg";
 
 function Contactus() {
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+ 
+const handleSubmit = (e) => {
+  e.preventDefault();
 
-    const formData = new FormData(e.target);
+  const form = e.target;
 
-    try {
-      const response = await fetch(
-        "https://formsubmit.co/ajax/prehabcare@gmail.com",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+  const name = form.name.value;
+  const email = form.email.value;
+  const phone = form.phone.value;
+  const subject = form.subject.value;
+  const message = form.message.value;
 
-      const data = await response.json();
+  const whatsappNumber = "9034107746";
 
-      if (response.ok) {
-        toast.success("✅ Your query has been submitted successfully!");
+  const whatsappMessage = `
+Hello RehabCare Clinic,
 
-        e.target.reset();
-      } else {
-        toast.error("❌ Failed to submit query.");
-      }
-    } catch (error) {
-      toast.error("❌ Something went wrong. Please try again.");
-    }
-  };
+I have a query regarding your physiotherapy services.
+
+👤 Name: ${name}
+📧 Email: ${email}
+📞 Phone: ${phone}
+📌 Subject: ${subject}
+
+📝 Message:
+${message}
+
+Please contact me regarding my query.
+
+Thank you.
+  `.trim();
+
+  const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+    whatsappMessage
+  )}`;
+
+  window.open(whatsappURL, "_blank");
+
+  toast.success("💬 Redirecting you to WhatsApp...", {
+    position: "top-right",
+  });
+
+  form.reset();
+};
+
+
 
   return (
     <div className="bg-[#F8FAFC]">

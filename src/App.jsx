@@ -21,12 +21,15 @@ import PainManagementTherapy from "./components/services/PainManagementTherapy";
 import PostureCorrectionTherapy from "./components/services/PostureCorrectionTherapy";
 import GeriatricPhysiotherapy from "./components/services/GeriatricPhysiotherapy";
 import ExerciseTherapy from "./components/services/ExerciseTherapy";
+import ScrollToTop from "./components/ScrollToTop";
+import SEO from "./components/SEO";
 
 function App() {
   return (
     <>
       <Navbar />
-
+      <ScrollToTop />
+      <SEO/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
