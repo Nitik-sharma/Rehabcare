@@ -1,7 +1,11 @@
 import React from "react";
 
 import ServiceDetailPage from "../Servicedetailpage";
-
+import manual_therapy_physiotherapy_gurgaon_rehabcare from "../../images/manual-therapy-physiotherapy-gurgaon-rehabcare.png"
+import runner_knee_manual_therapy_gurgaon from "../../images/runner-knee-manual-therapy-gurgaon.png"
+import manual_therapy_assessment_treatment_gurgaon from "../../images/manual-therapy-assessment-treatment-gurgaon.png"
+import physiotherapist_guiding_strength_exercises_gurgaon from "../../images/physiotherapist-guiding-strength-exercises-gurgaon.png"
+import manual_therapy_recovery_gurgaon_physiotherapy from "../../images/manual-therapy-recovery-gurgaon-physiotherapy.png"
 const data = {
   seoTitle:
     "Manual Therapy in Gurgaon | Hands-On Physiotherapy Treatment | RehabCare Clinic",
@@ -13,7 +17,7 @@ const data = {
     eyebrow: "RehabCare Clinic · Gurgaon",
     headline: "Hands-On Relief for Pain and Restricted Movement",
     copy: "Manual therapy uses skilled, hands-on techniques to relieve pain, release tight tissue, and restore movement where it's needed most.\n\nAt RehabCare Clinic, our physiotherapists use evidence-based manual therapy techniques as part of a complete approach to your recovery.",
-    image: "",
+    image: manual_therapy_physiotherapy_gurgaon_rehabcare,
     primaryCta: "Book Appointment",
     secondaryCta: "Schedule Consultation",
   },
@@ -32,7 +36,7 @@ const data = {
       "Our goal is to combine hands-on care with active rehabilitation for lasting results.",
   },
 
-  conditionsImage: "",
+  conditionsImage: runner_knee_manual_therapy_gurgaon,
   conditionsImageAlt: "Physiotherapist performing hands-on manual therapy",
   conditionsHeading: "Techniques We Use",
   conditions: [
@@ -95,8 +99,8 @@ const data = {
     },
   ],
 
-  approachImage: "",
-  approachImageAlt: "Physiotherapist applying soft tissue release techniques",
+  approachImage: manual_therapy_assessment_treatment_gurgaon,
+  approachImageAlt: "Manual Therapy Assessment and Treatment in Gurgaon",
   approach: [
     {
       title: "Comprehensive Assessment",
@@ -148,7 +152,7 @@ const data = {
     },
   ],
 
-  processImage: "",
+  processImage: physiotherapist_guiding_strength_exercises_gurgaon,
   processImageAlt: "Physiotherapist demonstrating joint mobilization technique",
   process: [
     {
@@ -201,8 +205,9 @@ const data = {
   ],
 
   finalCta: {
-    image: "",
-    imageAlt: "Patient experiencing relief after manual therapy treatment",
+    image: manual_therapy_recovery_gurgaon_physiotherapy,
+    imageAlt:
+      "Patient experiencing improved mobility after manual therapy in Gurgaon",
     headline: "Ready for Hands-On Relief?",
     copy: "Don't let stiffness and tension hold you back. Our expert physiotherapists are here to help you move freely again.",
     subheadline: "Book Your Manual Therapy Assessment Today",
