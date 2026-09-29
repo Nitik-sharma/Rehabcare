@@ -5,16 +5,16 @@ const doctors = [
   {
     image: doctor1,
     name: "Dr.Pankaj Vats",
-    degree: "MPT Orthopedics",
+    degree: "MPT Sports",
     experience: "5+ Years",
     specialization: "Sports Injury & Rehabilitation",
   },
   {
     image: doctor2,
     name: "Dr.Nisha Vats",
-    degree: "BPT, MPT",
+    degree: "MPT Ortho",
     experience: "5+ Years",
-    specialization: "Neurological Physiotherapy",
+    specialization: "Orthopadic Rehabilitation",
   },
   
 ];
