@@ -1,5 +1,10 @@
 import React from "react";
 import ServiceDetailPage from "../Servicedetailpage";
+import orthopedic_physiotherapy_treatment_gurgaon from "../../images/orthopedic_physiotherapy_treatment_gurgaon.png"
+import orthopedic_physiotherapy_conditions_treatment_gurgaon from "../../images/orthopedic_physiotherapy_conditions_treatment-gurgaon.png"
+import orthopedic_physiotherapy_assessment_treatment_plan_gurgaon from "../../images/orthopedic_physiotherapy_assessment_treatment_plan_gurgaon.png"
+import physiotherapist_guiding_strength_exercises_gurgaon from "../../images/physiotherapist-guiding-strength-exercises-gurgaon.png"
+import orthopedic_physiotherapy_pain_relief_recovery_gurgaon from "../../images/orthopedic_physiotherapy_pain_relief_recovery_gurgaon.png"
 
 
 const data = {
@@ -13,7 +18,7 @@ const data = {
     eyebrow: "RehabCare Clinic · Gurgaon",
     headline: "Specialized Care for Your Bones, Joints, and Muscles",
     copy: "Musculoskeletal conditions can affect your ability to move, work, and enjoy daily life. Orthopedic physiotherapy focuses on restoring function in the bones, joints, ligaments, and muscles.\n\nAt RehabCare Clinic, our physiotherapists create individualized treatment plans to relieve pain and rebuild strength for long-term joint and muscle health.",
-    image: "",
+    image: orthopedic_physiotherapy_treatment_gurgaon,
     primaryCta: "Book Appointment",
     secondaryCta: "Schedule Consultation",
   },
@@ -32,7 +37,7 @@ const data = {
       "Our goal is to help you move with less pain and greater confidence in daily life.",
   },
 
-  conditionsImage: "",
+  conditionsImage: orthopedic_physiotherapy_conditions_treatment_gurgaon,
   conditionsImageAlt: "Physiotherapist examining a patient's joint mobility",
   conditionsHeading: "Common Orthopedic Conditions We Treat",
   conditions: [
@@ -104,7 +109,7 @@ const data = {
     },
   ],
 
-  approachImage: "",
+  approachImage: orthopedic_physiotherapy_assessment_treatment_plan_gurgaon,
   approachImageAlt: "Physiotherapist guiding joint mobility exercises",
   approach: [
     {
@@ -157,7 +162,7 @@ const data = {
     },
   ],
 
-  processImage: "",
+  processImage: physiotherapist_guiding_strength_exercises_gurgaon,
   processImageAlt:
     "Physiotherapist guiding strength training for joint recovery",
   process: [
@@ -212,7 +217,7 @@ const data = {
   ],
 
   finalCta: {
-    image: "",
+    image: orthopedic_physiotherapy_pain_relief_recovery_gurgaon,
     imageAlt: "Patient moving comfortably after orthopedic physiotherapy",
     headline: "Ready to Move with Less Pain?",
     copy: "Don't let joint or muscle pain limit your life. Our expert physiotherapists are here to help you recover strength and mobility.",

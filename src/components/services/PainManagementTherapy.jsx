@@ -1,6 +1,10 @@
 import React from "react";
 import ServiceDetailPage from "../Servicedetailpage";
-
+import pain_management_physiotherapy_gurgaon_hero from "../../images/pain_management_physiotherapy_gurgaon-hero.png"
+import pain_conditions_physiotherapy_treatment_gurgaon from "../../images/pain_conditions_physiotherapy_treatment-gurgaon.png"
+import pain_management_treatment_approach_gurgaon from "../../images/pain_management_treatment_approach-gurgaon.png"
+import pain_management_treatment_approach_physiotherapy_gurgaon from "../../images/pain_management_treatment_approach_physiotherapy-gurgaon.png"
+import pain_management_physiotherapy_recovery_cta_gurgaon from "../../images/pain_management_physiotherapy_recovery_cta-gurgaon.png"
 
 const data = {
   seoTitle:
@@ -13,7 +17,7 @@ const data = {
     eyebrow: "RehabCare Clinic · Gurgaon",
     headline: "Take Back Control from Chronic and Recurring Pain",
     copy: "Living with ongoing pain can affect every part of daily life. Pain management physiotherapy focuses on understanding the root cause and building a sustainable path forward.\n\nAt RehabCare Clinic, we create personalized pain management programs that go beyond temporary relief, aiming for long-term improvement in function and quality of life.",
-    image: "",
+    image: pain_management_physiotherapy_gurgaon_hero,
     primaryCta: "Book Appointment",
     secondaryCta: "Schedule Consultation",
   },
@@ -32,7 +36,7 @@ const data = {
       "Our goal is to help you manage pain effectively and get back to doing what matters most to you.",
   },
 
-  conditionsImage: "",
+  conditionsImage: pain_conditions_physiotherapy_treatment_gurgaon,
   conditionsImageAlt:
     "Physiotherapist discussing a pain management plan with a patient",
   conditionsHeading: "Pain Conditions We Help Manage",
@@ -98,7 +102,7 @@ const data = {
     },
   ],
 
-  approachImage: "",
+  approachImage: pain_management_treatment_approach_gurgaon,
   approachImageAlt:
     "Physiotherapist guiding a patient through pain management exercises",
   approach: [
@@ -152,7 +156,7 @@ const data = {
     },
   ],
 
-  processImage: "",
+  processImage: pain_management_treatment_approach_physiotherapy_gurgaon,
   processImageAlt:
     "Physiotherapist reviewing a patient's long-term pain management plan",
   process: [
@@ -207,7 +211,7 @@ const data = {
   ],
 
   finalCta: {
-    image: "",
+    image: pain_management_physiotherapy_recovery_cta_gurgaon,
     imageAlt: "Patient enjoying daily activities after pain management therapy",
     headline: "Ready to Manage Your Pain More Effectively?",
     copy: "You don't have to navigate chronic pain alone. Our expert physiotherapists are here to help you find a sustainable path forward.",

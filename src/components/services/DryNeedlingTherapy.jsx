@@ -1,7 +1,11 @@
 import React from "react";
 
 import ServiceDetailPage from "../Servicedetailpage";
-
+import dry_needling_therapy_gurgaon_rehabcare_clinic from "../../images/dry-needling-therapy-gurgaon-rehabcare-clinic.png"
+import dry_needling_conditions_treatment_gurgaon from "../../images/dry-needling-conditions-treatment-gurgaon.png"
+import dry_needling_physiotherapy_assessment_treatment_gurgaon from "../../images/dry_needling_physiotherapy_assessment_treatment_gurgaon.png";
+import dry_needling_treatment_process_gurgaon from "../../images/dry_needling_treatment_process_gurgaon.png"
+import dry_needling_recovery_physiotherapy_gurgaon from "../../images/dry_needling_recovery_physiotherapy_gurgaon.png"
 const data = {
   seoTitle:
     "Dry Needling Therapy in Gurgaon | Trigger Point Treatment | RehabCare Clinic",
@@ -13,7 +17,7 @@ const data = {
     eyebrow: "RehabCare Clinic · Gurgaon",
     headline: "Targeted Relief for Stubborn Muscle Pain",
     copy: "Dry needling is an advanced technique that targets muscle trigger points to reduce pain, ease tightness, and improve movement.\n\nAt RehabCare Clinic, our trained physiotherapists use dry needling as part of a comprehensive treatment plan to speed up recovery and relieve persistent muscle tension.",
-    image: "",
+    image: dry_needling_therapy_gurgaon_rehabcare_clinic,
     primaryCta: "Book Appointment",
     secondaryCta: "Schedule Consultation",
   },
@@ -32,8 +36,9 @@ const data = {
       "Our goal is to relieve trigger point pain and support your broader recovery plan.",
   },
 
-  conditionsImage: "",
-  conditionsImageAlt: "Physiotherapist performing dry needling treatment",
+  conditionsImage: dry_needling_conditions_treatment_gurgaon,
+  conditionsImageAlt:
+    "Dry needling treatment for muscle pain and sports injuries in Gurgaon",
   conditionsHeading: "Conditions Dry Needling Can Help With",
   conditions: [
     {
@@ -99,7 +104,7 @@ const data = {
     },
   ],
 
-  approachImage: "",
+  approachImage: dry_needling_physiotherapy_assessment_treatment_gurgaon,
   approachImageAlt:
     "Physiotherapist explaining dry needling technique to a patient",
   approach: [
@@ -148,7 +153,7 @@ const data = {
     },
   ],
 
-  processImage: "",
+  processImage: dry_needling_treatment_process_gurgaon,
   processImageAlt: "Physiotherapist reviewing a patient's treatment progress",
   process: [
     {
@@ -202,7 +207,7 @@ const data = {
   ],
 
   finalCta: {
-    image: "",
+    image: dry_needling_recovery_physiotherapy_gurgaon,
     imageAlt: "Patient relieved of muscle tension after dry needling treatment",
     headline: "Ready to Release Persistent Muscle Pain?",
     copy: "Don't let stubborn trigger points hold you back. Our expert physiotherapists are here to help you find lasting relief.",

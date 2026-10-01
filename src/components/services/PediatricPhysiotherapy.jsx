@@ -1,5 +1,10 @@
 import React from "react";
 import ServiceDetailPage from "../Servicedetailpage";
+import pediatric_physiotherapy_walking_training_gurgaon from "../../images/pediatric_physiotherapy_gurgaon-hero.png"
+import pediatric_physiotherapy_conditions_we_support_gurgaon from "../../images/pediatric_physiotherapy_conditions_we_support-gurgaon.png"
+import pediatric_physiotherapy_treatment_approach_gurgaon from "../../images/pediatric_physiotherapy_treatment_approach-gurgaon.png"
+import pediatric_physiotherapy_treatment_process_gurgaon from "../../images/best_pediatric_physiotherapy_treatment_approach_gurgaon.png"
+import cta from "../../images/pediatric_physiotherapy_treeatment_best_in_gurgaon.png"
 
 
 const data = {
@@ -13,7 +18,7 @@ const data = {
     eyebrow: "RehabCare Clinic · Gurgaon",
     headline: "Supporting Every Child's Physical Development",
     copy: "Every child develops at their own pace, but some benefit from extra support to build strength, coordination, and confidence.\n\nAt RehabCare Clinic, our pediatric physiotherapists provide gentle, specialized care designed to help children reach their physical milestones.",
-    image: "",
+    image: pediatric_physiotherapy_walking_training_gurgaon,
     primaryCta: "Book Appointment",
     secondaryCta: "Schedule Consultation",
   },
@@ -32,7 +37,7 @@ const data = {
       "Our goal is to support each child's development in a way that feels encouraging, not intimidating.",
   },
 
-  conditionsImage: "",
+  conditionsImage: pediatric_physiotherapy_conditions_we_support_gurgaon,
   conditionsImageAlt:
     "Physiotherapist working with a child during a play-based session",
   conditionsHeading: "Conditions We Support",
@@ -99,7 +104,7 @@ const data = {
     },
   ],
 
-  approachImage: "",
+  approachImage: pediatric_physiotherapy_treatment_approach_gurgaon,
   approachImageAlt: "Child engaging in a play-based physiotherapy exercise",
   approach: [
     {
@@ -151,7 +156,7 @@ const data = {
     },
   ],
 
-  processImage: "",
+  processImage: pediatric_physiotherapy_treatment_process_gurgaon,
   processImageAlt:
     "Physiotherapist guiding a child through a milestone exercise",
   process: [
@@ -206,7 +211,7 @@ const data = {
   ],
 
   finalCta: {
-    image: "",
+    image: cta,
     imageAlt:
       "Child confidently playing after pediatric physiotherapy sessions",
     headline: "Ready to Support Your Child's Development?",

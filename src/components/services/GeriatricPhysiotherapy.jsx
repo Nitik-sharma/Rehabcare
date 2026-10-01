@@ -2,6 +2,12 @@ import React from "react";
 
 import ServiceDetailPage from "../Servicedetailpage";
 
+import geriatric_physiotherapy_gurgaon_hero from "../../images/geriatric_physiotherapy_gurgaon-hero.png"
+import geriatric_physiotherapy_who_we_support_gurgaon from "../../images/geriatric_physiotherapy_who_we_support-gurgaon.png"
+import geriatric_physiotherapy_treatment_approach_gurgaon from "../../images/geriatric_physiotherapy_treatment_approach-gurgaon.png"
+import geriatric_physiotherapy_treatment_process_gurgaon from "../../images/geriatric_physiotherapy_treatment_process-gurgaon.png"
+import geriatric_physiotherapy_recovery_cta_gurgaon from "../../images/geriatric_physiotherapy_recovery_cta-gurgaon.png"
+ 
 const data = {
   seoTitle:
     "Geriatric Physiotherapy in Gurgaon | Physiotherapy for Elderly Patients | RehabCare Clinic",
@@ -13,7 +19,7 @@ const data = {
     eyebrow: "RehabCare Clinic · Gurgaon",
     headline: "Supporting Mobility and Independence at Every Age",
     copy: "Maintaining mobility, strength, and balance becomes increasingly important as we age. Geriatric physiotherapy is designed to support safe, confident movement in daily life.\n\nAt RehabCare Clinic, our physiotherapists provide gentle, specialized care to help elderly patients stay active and independent.",
-    image: "",
+    image: geriatric_physiotherapy_gurgaon_hero,
     primaryCta: "Book Appointment",
     secondaryCta: "Schedule Consultation",
   },
@@ -32,7 +38,7 @@ const data = {
       "Our goal is to help elderly patients stay active, confident, and independent for as long as possible.",
   },
 
-  conditionsImage: "",
+  conditionsImage: geriatric_physiotherapy_who_we_support_gurgaon,
   conditionsImageAlt:
     "Physiotherapist supporting an elderly patient with balance exercises",
   conditionsHeading: "Who Geriatric Physiotherapy Supports",
@@ -92,7 +98,7 @@ const data = {
     },
   ],
 
-  approachImage: "",
+  approachImage: geriatric_physiotherapy_treatment_approach_gurgaon,
   approachImageAlt:
     "Physiotherapist guiding a strength exercise for an elderly patient",
   approach: [
@@ -146,7 +152,7 @@ const data = {
     },
   ],
 
-  processImage: "",
+  processImage: geriatric_physiotherapy_treatment_process_gurgaon,
   processImageAlt:
     "Physiotherapist reviewing a home safety plan with an elderly patient",
   process: [
@@ -201,7 +207,7 @@ const data = {
   ],
 
   finalCta: {
-    image: "",
+    image: geriatric_physiotherapy_recovery_cta_gurgaon,
     imageAlt:
       "Elderly patient moving confidently after geriatric physiotherapy",
     headline: "Ready to Support Safe, Confident Movement?",

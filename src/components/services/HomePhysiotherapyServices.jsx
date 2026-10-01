@@ -1,6 +1,11 @@
 import React from "react";
 
 import ServiceDetailPage from "../Servicedetailpage";
+import home_physiotherapy_services_gurgaon from "../../images/home_physiotherapy_services_gurgaon.png"
+import home_physiotherapy_for_seniors_mobility_recovery_gurgaon from "../../images/home_physiotherapy_for_seniors_mobility_recovery-gurgaon.png"
+import home_physiotherapy_assessment_treatment_plan_gurgaon from "../../images/home_physiotherapy_assessment_treatment_plan_gurgaon.png"
+import home_physiotherapy_assessment_diagnosis_recovery_gurgaon from "../../images/home_physiotherapy_assessment_diagnosis_recovery_gurgaon.png"
+import home_physiotherapy_doorstep_care_gurgaon from "../../images/home_physiotherapy_doorstep_care_gurgaon.png"
 
 const data = {
   seoTitle:
@@ -13,7 +18,7 @@ const data = {
     eyebrow: "RehabCare Clinic · Gurgaon",
     headline: "Expert Physiotherapy Care, Delivered to Your Doorstep",
     copy: "Not everyone can easily travel to a clinic for treatment. Our home physiotherapy services bring professional, personalized care directly to you.\n\nAt RehabCare Clinic, we provide the same quality of treatment in the comfort of your home, with care plans built around your routine and needs.",
-    image: "",
+    image: home_physiotherapy_services_gurgaon,
     primaryCta: "Book Appointment",
     secondaryCta: "Schedule Consultation",
   },
@@ -32,7 +37,7 @@ const data = {
       "Our goal is to make quality physiotherapy accessible, wherever you are most comfortable.",
   },
 
-  conditionsImage: "",
+  conditionsImage: home_physiotherapy_for_seniors_mobility_recovery_gurgaon,
   conditionsImageAlt: "Physiotherapist providing treatment in a patient's home",
   conditionsHeading: "Who Home Physiotherapy Is Ideal For",
   conditions: [
@@ -92,7 +97,7 @@ const data = {
     },
   ],
 
-  approachImage: "",
+  approachImage: home_physiotherapy_assessment_treatment_plan_gurgaon,
   approachImageAlt: "Physiotherapist guiding a home exercise session",
   approach: [
     {
@@ -140,7 +145,7 @@ const data = {
     },
   ],
 
-  processImage: "",
+  processImage: home_physiotherapy_assessment_diagnosis_recovery_gurgaon,
   processImageAlt: "Physiotherapist reviewing a home care plan with a patient",
   process: [
     {
@@ -194,7 +199,7 @@ const data = {
   ],
 
   finalCta: {
-    image: "",
+    image: home_physiotherapy_doorstep_care_gurgaon,
     imageAlt: "Patient receiving physiotherapy care at home",
     headline: "Ready for Physiotherapy at Your Doorstep?",
     copy: "Don't let travel be a barrier to your recovery. Our expert physiotherapists are ready to bring quality care to you.",

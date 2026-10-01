@@ -1,6 +1,10 @@
 import React from "react";
 import ServiceDetailPage from "../Servicedetailpage";
-
+import posture_correction_physiotherapy_gurgaon_hero from "../../images/posture_correction_physiotherapy_gurgaon-hero.png"
+import posture_correction_benefits_who_needs_therapy_gurgaon from "../../images/posture_correction_benefits_who_needs_therapy_gurgaon.png"
+import posture_correction_treatment_approach_gurgaon from "../../images/posture_correction_treatment_approach-gurgaon.png"
+import posture_correction_treatment_process_gurgaon from "../../images/posture_correction_treatment_process-gurgaon.png"
+import posture_correction_physiotherapy_cta_gurgaon from "../../images/orthopedic_physiotherapy_treatment_gurgaon.png"
 
 const data = {
   seoTitle:
@@ -13,7 +17,7 @@ const data = {
     eyebrow: "RehabCare Clinic · Gurgaon",
     headline: "Stand Taller, Move Better, Feel Stronger",
     copy: "Poor posture habits — from desk work, screen time, or daily routines — can quietly lead to pain and long-term musculoskeletal problems.\n\nAt RehabCare Clinic, our posture correction programs help you build healthier movement habits and prevent future pain before it starts.",
-    image: "",
+    image: posture_correction_physiotherapy_gurgaon_hero,
     primaryCta: "Book Appointment",
     secondaryCta: "Schedule Consultation",
   },
@@ -32,7 +36,7 @@ const data = {
       "Our goal is to help you build posture habits that support comfort and movement for the long term.",
   },
 
-  conditionsImage: "",
+  conditionsImage: posture_correction_benefits_who_needs_therapy_gurgaon,
   conditionsImageAlt: "Physiotherapist assessing a patient's posture",
   conditionsHeading: "Who Benefits from Posture Correction",
   conditions: [
@@ -91,7 +95,7 @@ const data = {
     },
   ],
 
-  approachImage: "",
+  approachImage: posture_correction_treatment_approach_gurgaon,
   approachImageAlt: "Physiotherapist guiding a posture correction exercise",
   approach: [
     {
@@ -136,7 +140,7 @@ const data = {
     },
   ],
 
-  processImage: "",
+  processImage: posture_correction_treatment_approach_gurgaon,
   processImageAlt:
     "Physiotherapist demonstrating a corrective posture exercise",
   process: [
@@ -191,7 +195,7 @@ const data = {
   ],
 
   finalCta: {
-    image: "",
+    image: posture_correction_physiotherapy_cta_gurgaon,
     imageAlt: "Patient standing with improved, confident posture",
     headline: "Ready to Improve Your Posture?",
     copy: "Small daily habits add up over time. Our expert physiotherapists are here to help you build lasting postural change.",

@@ -1,6 +1,10 @@
 import React from "react";
 
 import ServiceDetailPage from "../Servicedetailpage";
+import exercise_therapy_physiotherapy_gurgaon_hero from "../../images/exercise_therapy_physiotherapy_gurgaon-hero.png"
+import exercise_therapy_who_is_suited_for_gurgaon from "../../images/exercise_therapy_who_is_suited_for-gurgaon.png"
+import exercise_therapy_treatment_approach_gurgaon from "../../images/exercise_therapy_treatment_approach-gurgaon.png"
+import exercise_therapy_treatment_process_gurgaon from "../../images/exercise_therapy_treatment_process-gurgaon.png"
 
 const data = {
   seoTitle:
@@ -13,7 +17,7 @@ const data = {
     eyebrow: "RehabCare Clinic · Gurgaon",
     headline: "Build Strength, Flexibility, and Resilience",
     copy: "Exercise therapy uses customized, therapeutic exercise programs to support rehabilitation, build strength, and improve overall physical performance.\n\nAt RehabCare Clinic, our physiotherapists design exercise programs tailored to your specific condition, goals, and fitness level.",
-    image: "",
+    image: exercise_therapy_physiotherapy_gurgaon_hero,
     primaryCta: "Book Appointment",
     secondaryCta: "Schedule Consultation",
   },
@@ -32,7 +36,7 @@ const data = {
       "Our goal is to help you build a stronger, more resilient body through guided exercise.",
   },
 
-  conditionsImage: "",
+  conditionsImage: exercise_therapy_who_is_suited_for_gurgaon,
   conditionsImageAlt: "Physiotherapist guiding a strength training exercise",
   conditionsHeading: "Who Exercise Therapy Is Suited For",
   conditions: [
@@ -92,7 +96,7 @@ const data = {
     },
   ],
 
-  approachImage: "",
+  approachImage: exercise_therapy_treatment_approach_gurgaon,
   approachImageAlt: "Physiotherapist guiding a flexibility exercise",
   approach: [
     {
@@ -140,7 +144,7 @@ const data = {
     },
   ],
 
-  processImage: "",
+  processImage: exercise_therapy_treatment_process_gurgaon,
   processImageAlt:
     "Physiotherapist tracking a patient's exercise program progress",
   process: [
@@ -195,7 +199,7 @@ const data = {
   ],
 
   finalCta: {
-    image: "",
+    image: exercise_therapy_who_is_suited_for_gurgaon,
     imageAlt: "Patient confidently completing a strength training program",
     headline: "Ready to Build a Stronger, More Resilient Body?",
     copy: "Whether you're recovering, rebuilding, or preventing injury, our expert physiotherapists are here to guide your program.",
