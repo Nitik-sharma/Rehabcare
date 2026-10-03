@@ -1,6 +1,5 @@
 import React from "react";
-import doctor1 from "../images/doctor1.avif"
-import doctor2 from "../images/doctor2.avif"
+
 import pankaj from "../../src/images/dr_Pankaj_physiotherapyist_best_in_gurgaon.png"
 import nisa from "../../src/images/dr_nisha_best_physiotherapy_in_gurgaon.png"
 const doctors = [
